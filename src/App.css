@@ -1,38 +1,380 @@
-.App {
-  text-align: center;
+.rectangle{
+position: absolute;
+width: 1580px;
+height: 1080px;
+left: 0px;
+top: 0px;
+background: #232325;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_image{
+position: absolute;
+width: 69px;
+height: 69px;
+left: 86px;
+top: 36px;
+
+}
+.ellipse{
+position: absolute;
+width: 69px;
+height: 69px;
+left: 86px;
+top: 36px;
+border-radius: 50%;
+background: #232325;
+box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25), inset 1px 0px 4px rgba(255, 255, 255, 0.25);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img{
+position: absolute;
+width: 32.04px;
+height: 42.71px;
+left: 104.07px;
+top: 49.14px;
+background: url(12078.png);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header_text{
+position: absolute;
+width: 416px;
+height: 34px;
+left: 170px;
+top: 53px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.045em;
+color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+/* ABOUT BUTTON */
+
+.button_about{
+position: absolute;
+width: 181px;
+height: 50px;
+left: 752px;
+top: 45px;
+background: #232325;
+box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.25), inset -2px -3px 0px rgba(255, 255, 255, 0.25);
+border-radius: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ellipse_about{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 882px;
+top: 50px;
+border-radius: 50%;
+background: #232325;
+box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25), inset 1px 0px 3px rgba(255, 255, 255, 0.25);
+}
+
+.about_text{
+position: absolute;
+width: 54px;
+height: 27px;
+left: 765px;
+top: 57px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.arrow_about{
+z-index: 1;
+position: absolute;
+width: 12.22px;
+height: 0px;
+left: 903px;
+top: 70px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.ellipse_arrow_about{
+position: absolute;
+width: 26px;
+height: 26px;
+left: 896px;
+top: 57px;
+border-radius: 50%;
+background: #2A42E8;
+}
+
+/* CONTACT BUTTON */
+
+.button_contact{
+position: absolute;
+width: 181px;
+height: 50px;
+left: 964px;
+top: 45px;
+
+background: #232325;
+box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.25), inset -2px -3px 0px rgba(255, 255, 255, 0.25);
+border-radius: 45px;
+}
+
+.ellipse_contact{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1094px;
+top: 50px;
+border-radius: 50%;
+background: #232325;
+box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25), inset 1px 0px 3px rgba(255, 255, 255, 0.25);
+}
+
+.contact_text{
+position: absolute;
+width: 74px;
+height: 27px;
+left: 982px;
+top: 57px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.arrow_contact{
+z-index: 1;
+position: absolute;
+width: 12.22px;
+height: 0px;
+left: 1115px;
+top: 70px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.ellipse_arrow_contact{
+position: absolute;
+width: 26px;
+height: 26px;
+left: 1108px;
+top: 57px;
+border-radius: 50%;
+background: #2A42E8;
+}
+
+/* LOGIN_BUTTON */
+
+.button_login{
+position: absolute;
+width: 181px;
+height: 50px;
+left: 1176px;
+top: 47px;
+
+background: #232325;
+box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.25), inset -2px -3px 0px rgba(255, 255, 255, 0.25);
+border-radius: 45px;
+}
+
+.ellipse_login{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1306px;
+top: 52px;
+border-radius: 50%;
+background: #232325;
+box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25), inset 1px 0px 3px rgba(255, 255, 255, 0.25);
+}
+
+.login_text{
+position: absolute;
+width: 104px;
+height: 27px;
+left: 1186px;
+top: 59px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.arrow_login{
+z-index: 1;
+position: absolute;
+width: 12.22px;
+height: 0px;
+left: 1327px;
+top: 72px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.ellipse_arrow_login{
+position: absolute;
+width: 26px;
+height: 26px;
+left: 1320px;
+top: 59px;
+border-radius: 50%;
+background: #2A42E8;
+}
+
+/* BODY_IMAGE */
+
+.body_ellipse{
+position: absolute;
+width: 493px;
+height: 493px;
+left: 864px;
+top: 153px;
+border-radius: 50%;
+background: #232325;
+box-shadow: inset -8px 1px 13px rgba(255, 255, 255, 0.25), inset 13px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.body_image{
+position: absolute;
+width: 197px;
+height: 315px;
+left: 993px;
+top: 244px;
+
+background: url(Daco_39429.png);
+}
+
+/* LOGOS */
+
+.logo1{
+position: absolute;
+width: 47px;
+height: 46px;
+left: 897px;
+top: 680px;
+
+background: url(logo1.png);
+}
+
+.logo2{
+  position: absolute;
+  width: 67px;
+  height: 46px;
+  left: 1069px;
+  top: 680px;
+  
+  background: url(logo2.png);
+}
+.logo3{
+position: absolute;
+width: 46px;
+height: 41px;
+left: 1279px;
+top: 680px;
+  
+background: url(logo3.png);
+}
+
+/* BODY_TEXTS */
+
+.body_text{
+position: absolute;
+width: 175px;
+height: 85px;
+left: 96px;
+top: 229px;
+
+font-family: Shaloems;
+font-style: normal;
+font-weight: normal;
+font-size: 65px;
+line-height: 65px;
+
+color: #FFFFFF;
+}
+
+.body_text_header{
+position: absolute;
+width: 376px;
+height: 38px;
+left: 210px;
+top: 259px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 150.18%;
+/* identical to box height, or 38px */
+
+letter-spacing: -0.025em;
+
+color: #FFFFFF;
+}
+
+.body_text_body_1{
+position: absolute;
+width: 500px;
+height: 105px;
+left: 86px;
+top: 333px;
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 131.19%;
+color: white;
+letter-spacing: 0.085em;
+}
+
+.body_text_body_2{
+position: absolute;
+width: 494px;
+height: 105px;
+left: 83px;
+top: 463px;
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 131.19%;
+  
+letter-spacing: 0.085em;
+  
+color: #FFFFFF;
+}
+
+.body_text_body_3{
+position: absolute;
+width: 494px;
+height: 105px;
+left: 82px;
+top: 593px;
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 131.19%;
+letter-spacing: 0.085em; 
+color: #FFFFFF;
 }
